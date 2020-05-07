@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://Validador/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="ValidadorServerImpService" targetNamespace="http://Validador/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types />
+  <message name="valida">
+    <part name="arg0" type="xsd:string" />
+  </message>
+  <message name="validaResponse">
+    <part name="return" type="xsd:string" />
+  </message>
+  <portType name="ValidadorServer">
+    <operation name="valida">
+      <input wsam:Action="http://Validador/ValidadorServer/validaRequest" message="tns:valida" />
+      <output wsam:Action="http://Validador/ValidadorServer/validaResponse" message="tns:validaResponse" />
+    </operation>
+  </portType>
+  <binding name="ValidadorServerImpPortBinding" type="tns:ValidadorServer">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="valida">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://Validador/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://Validador/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ValidadorServerImpService">
+    <port name="ValidadorServerImpPort" binding="tns:ValidadorServerImpPortBinding">
+      <soap:address location="http://127.0.0.1:9876/Valida" />
+    </port>
+  </service>
+</definitions>

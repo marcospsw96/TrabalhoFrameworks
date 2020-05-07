@@ -1,0 +1,10 @@
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\bin\Debug\ConsumindoSOAPEmC.exe.config
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\bin\Debug\ConsumindoSOAPEmC.exe
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\bin\Debug\ConsumindoSOAPEmC.pdb
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\obj\Debug\ConsumindoSOAPEmC.csprojAssemblyReference.cache
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\obj\Debug\ConsumindoSOAPEmC.Form1.resources
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\obj\Debug\ConsumindoSOAPEmC.Properties.Resources.resources
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\obj\Debug\ConsumindoSOAPEmC.csproj.GenerateResource.cache
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\obj\Debug\ConsumindoSOAPEmC.csproj.CoreCompileInputs.cache
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\obj\Debug\ConsumindoSOAPEmC.exe
+C:\Users\MPSW\source\repos\ConsumindoSOAPEmC\ConsumindoSOAPEmC\obj\Debug\ConsumindoSOAPEmC.pdb
